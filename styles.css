@@ -1,0 +1,108 @@
+
+
+/* TAG Section */
+
+body {
+    background-color: hsl(216, 12%, 8%);  /*Very Dark Blue*/
+}
+
+h2,h1 {
+    color: white;
+    margin-top: 2.5rem;
+}
+
+p {
+    color: hsl(217, 12%, 63%); /* Light Grey */
+    font-size: 15px;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+/*Class Section */
+
+.submitbtn {
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: hsl(25, 97%, 53%); /* Orange */
+    position: relative;
+    top: 2rem;
+    font-weight: 700;
+}
+
+.starDiv {
+    top: 0.5rem;
+    position: relative;
+    display: inline;
+    border-radius: 50%;
+    background-color: #4D455D;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.mainDiv {
+    background-color: hsl(213, 19%, 18%); /* Dark Blue */
+    height: 27rem;
+    width: 35%;
+    padding: 2rem;
+    margin: 20% auto;
+    border-radius: 2rem;
+}
+
+.ratebtn {
+    color:hsl(217, 12%, 63%) ; /* Light Grey */
+    margin: 0.7rem;
+    border-radius: 50%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #4D455D;
+    position: relative;
+    top: 1rem;
+    font-weight: 700;
+}
+
+.ratebtn:hover {
+    color: white;
+    background-color: hsl(25, 97%, 53%); /* Orange */
+}
+
+.submitbtn:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%); /* Orange */
+}
+
+.ratebtnPressed {
+    background-color:hsl(217, 12%, 63%); /* Light Grey */
+    color: white;
+}
+
+
+.thanksMsg {
+    text-align: center;
+}
+
+.thanksParagraph {
+    text-align: center;
+}
+
+.ratingResult {
+    text-align: center;
+    margin-top: 2rem;
+    color: red;
+    background-color: #4D455D;
+    position: relative;
+    width: 50%;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.thanksDivImage {
+    position: relative;
+    left: 6rem;
+}
