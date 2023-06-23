@@ -106,3 +106,37 @@ p {
     position: relative;
     left: 6rem;
 }
+
+
+
+/* Style for Mobile  */
+
+@media (max-width:414px) {
+    .mainDiv {
+        width: 90%;
+        padding: 1.5rem;
+        height: 24rem;
+    }
+
+    .ratebtn {
+        margin: 0;
+        margin-left: 0.3rem;
+    }
+
+    .submitbtn {
+        top: 3rem;
+    }
+
+    .thanksDivImage {
+        left: 4rem;
+    }
+
+    .ratingResult {
+        width: 60%;
+    }
+
+    .thanksMsg {
+        margin-top: 1rem;
+    }
+
+}
